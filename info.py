@@ -2,26 +2,26 @@ from os import environ, getenv
 from Script import script
 
 # 🚀 __Bot Configuration__
-SESSION = environ.get('SESSION', 'RexBots')  # Session name
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+SESSION = environ.get('SESSION', 'lifeline2308')  # Session name
+API_ID = int(environ.get('API_ID', '27433400'))
+API_HASH = environ.get('API_HASH', '1a286620de5ffe0a7d9b57e604293555')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8457218709:AAGZpkE5j2YYE0FzoIXxe7d97qSTXcWwVyY')
 
 # 👑 __Owner & Admins__
-ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
-AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
+ADMINS = [int(i) for i in environ.get('ADMINS', '6201066540').split()]
+AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1003635671191").split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'RexBots_Official')
 BOT_USERNAME = environ.get("BOT_USERNAME", 'RexBots_Official')
 
 # 🔗 __Channel & Support Links__
-CHANNEL = environ.get('CHANNEL', 'https://t.me/RexBots_Official')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/RexBots_Official')
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/RexBots_Official')
-HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/RexBots_Official')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/lifeline2308')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/lifeline2308')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/lifeline2308')
+HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/lifeline2308')
 
 # 📢 __Log Channels__
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", ''))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-'))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", 'https://t.me/+1oueMVhddok4Mzk9'))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003182485007'))
 PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))
 VERIFIED_LOG = int(environ.get('VERIFIED_LOG', ''))
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
