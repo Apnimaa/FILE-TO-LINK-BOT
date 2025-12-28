@@ -10,7 +10,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '8457218709:AAGZpkE5j2YYE0FzoIXxe7d97qSTXcW
 # 👑 __Owner & Admins__
 ADMINS = [int(i) for i in environ.get('ADMINS', '6201066540').split()]
 AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1003635671191").split()]
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'lifeline2308')
+OWNER_USERNAME = environ.get("OWNER_USERNAME",'Priyansh230819')
 BOT_USERNAME = environ.get("BOT_USERNAME", 'lifeline2308)
 
 # 🔗 __Channel & Support Links__
