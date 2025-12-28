@@ -11,7 +11,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '8457218709:AAGZpkE5j2YYE0FzoIXxe7d97qSTXcW
 ADMINS = [int(i) for i in environ.get('ADMINS', '6201066540').split()]
 AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1003635671191").split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME",'Priyansh230819')
-BOT_USERNAME = environ.get("BOT_USERNAME", 'lifeline2308)
+BOT_USERNAME = environ.get("BOT_USERNAME", 'Nondrm1505uploader_bot')
 
 # 🔗 __Channel & Support Links__
 CHANNEL = environ.get('CHANNEL', 'https://t.me/lifeline2308')
@@ -22,9 +22,9 @@ HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/lifeline2308')
 # 📢 __Log Channels__
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", 'https://t.me/+1oueMVhddok4Mzk9'))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003182485007'))
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', ''))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003182485007'))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003182485007'))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003182485007"))
 
 # ✅ __Feature Toggles__
 VERIFY = False  # Enable user verification
@@ -42,8 +42,8 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
 SHORTLINK_API = environ.get('SHORTLINK_API', '')
 
 # 💾 __Database Configuration__
-DB_URL = environ.get('DATABASE_URI', "")
-DB_NAME = environ.get('DATABASE_NAME', "rexlinkbot")
+DB_URL = environ.get('DATABASE_URI', "mongodb+srv://niravpatel180503_db_user:vjWNaWhRk0gMSNyQ@cluster0.26bfgmf.mongodb.net/?appName=Cluster0")
+DB_NAME = environ.get('DATABASE_NAME', "niravpatel180503_db_user")
 
 # 📸 __Media & Images__
 QR_CODE = environ.get('QR_CODE', 'https://ibb.co/mVkSySr7')
@@ -67,7 +67,7 @@ VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 60))  # Hours
 # ⚙️ __Worker & App Config__
 WORKERS = int(environ.get('WORKERS', 10))
 MULTI_CLIENT = False
-NAME = environ.get('name', 'rexbots_official')
+NAME = environ.get('name', 'Nondrm1505uploader_bot')
 
 # 🌐 __Web Server__
 ON_HEROKU = 'DYNO' in environ
